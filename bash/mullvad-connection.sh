@@ -81,7 +81,7 @@ else
           echo "all good"
           #to write the file to show previous connections
           echo $status $(date)  >> ~/logs/mullvad.logs
-          -en '\n' >> ~/logs/mullvad.logs
+          echo   -en '\n' >> ~/logs/mullvad.logs
 
   fi
 
